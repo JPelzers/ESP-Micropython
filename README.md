@@ -19,6 +19,7 @@ Directions:
 3. Once you have access to the REPL, follow the following instructions to get a WebREPL: https://www.techcoil.com/blog/how-to-setup-micropython-webrepl-on-your-esp32-development-board/ 
 
 **Note:** The port they use in the above example is different from what yours will likely be, mine in Linux is "/dev/ttyUSB0", in addition you may need to install rshell/nano
+
 **Another Note**: The "boot.py" in this project folder is the same code as the code in the above tutorial, you just need to change the SSID and the Password to your own network's
 
 4. Modify boot.py with your SSID and Password
