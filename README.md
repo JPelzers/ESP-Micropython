@@ -32,6 +32,6 @@ Directions:
 
 6. Modify main.py with your API Key and the station number of your desired station (make sure there are no {} in the code)
 
-7. Upload boot.py, main.py, and ssd1306.py
+7. Upload boot.py, main.py, and ssd1306.py via the WebREPL interface or using rshell like you did in step 4 above.
 
 8. Get to your train on time!
