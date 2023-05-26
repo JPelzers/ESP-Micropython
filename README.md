@@ -14,20 +14,24 @@ Directions:
 
 1. Follow the instructions from the https://docs.micropython.org/en/latest/esp32/tutorial/intro.html#esp32-intro guide and get a REPL on your ESP-32
 
-2. Download the files from this project (boot.py, main.py, ssd1306.py)
+2. Connect your OLED to your board, we are using the Software I2C library, so you can choose any ports for the SDA/SCL, but for my code I use the folling pinout:
+- ESP 32 3.3v to OLED VCC
+- ESP Ground to OLED GND
+- ESP D21 to OLED SDA
+- ESP D22 to OLED SCL
 
-3. Once you have access to the REPL, follow the following instructions to get a WebREPL: https://www.techcoil.com/blog/how-to-setup-micropython-webrepl-on-your-esp32-development-board/ 
+3. Download the files from this project (boot.py, main.py, ssd1306.py)
 
-**Note:** The port they use in the above example is different from what yours will likely be, mine in Linux is "/dev/ttyUSB0", in addition you may need to install rshell/nano
+4. Once you have access to the REPL, follow the following instructions to get a WebREPL: https://www.techcoil.com/blog/how-to-setup-micropython-webrepl-on-your-esp32-development-board/ 
 
-**Another Note**: The "boot.py" in this project folder is the same code as the code in the above tutorial, you just need to change the SSID and the Password to your own network's
+  **Note:** The port they use in the above example is different from what yours will likely be, mine in Linux is "/dev/ttyUSB0", in addition you may need to install rshell/nano
 
-4. Modify boot.py with your SSID and Password
+  **Another Note**: The "boot.py" in this project folder is the same code as the code in the above tutorial, you just need to change the SSID and the Password to your own network's
 
-5. Modify main.py with your API Key and the station number of your desired station (make sure there are no {} in the code)
+5. Modify boot.py with your SSID and Password
 
-6. Upload boot.py, main.py, and ssd1306.py
+6. Modify main.py with your API Key and the station number of your desired station (make sure there are no {} in the code)
+
+7. Upload boot.py, main.py, and ssd1306.py
 
 8. Get to your train on time!
-
-
