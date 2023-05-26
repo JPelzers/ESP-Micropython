@@ -1,10 +1,10 @@
 import urequests
 from machine import Pin, SoftI2C
-#This library is depracated, from Adafruit, it will need to be manually uploaded to the ESP (see Readme)
 import ssd1306
+#This library is depracated, from Adafruit, it will need to be manually uploaded to the ESP (see Readme)
 from time import sleep
 
-# Set Display size (not, this is for a 128x64 OLED, should yours differ in size please change this as well as the code in where we print the text to a particular screen location 
+# Set Display size (note: this is for a 128x64 OLED, should yours differ in size please change this as well as the code in where we print the text to a particular screen location 
 oled_width = 128
 oled_height = 64
 #Create i2c object
